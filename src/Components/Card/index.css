@@ -1,0 +1,52 @@
+.card {
+  width: 200px;
+  height: 250px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.coin-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card-img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%; /* Make the image round */
+}
+
+.coin-symbol {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 5px; /* Add some space below symbol */
+}
+
+
+.coin-price-change {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.coin-price{
+  margin-top: 20px;
+  font-size:20px;
+  font-weight: bold;
+ }
+
+ .coin-sparkline {
+  width: 180px;
+  height: 100px;
+  margin: 10px auto; /* Auto horizontal margin centers the element */
+}
+
+
+
+
+
